@@ -26,6 +26,10 @@
   color:var(--sup-color-4);
 }
 
+.color-p3 {
+  color:var(--base-color-2);
+}
+
 .color-s1 {
   color:var(--base-color-3);
 }

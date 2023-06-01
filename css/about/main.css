@@ -1,0 +1,31 @@
+.about-header {
+  text-align: center;
+  margin: 120px 0;
+}
+
+.about-header h2 {
+  display: inline-block;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.about-header h2::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: -35px;
+  top:40px;
+  background-image: url('../../assets/hashtag.svg');
+  background-repeat: no-repeat;
+  width: 26.57px;
+  height: 34.9px;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2.5fr 2fr;
+  gap:80px;
+}
