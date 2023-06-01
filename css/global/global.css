@@ -1,3 +1,9 @@
+body {
+  background: var(--sup-color-4);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .container {
   max-width: 1600px;
   margin: 0 auto;
