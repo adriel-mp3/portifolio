@@ -1,0 +1,35 @@
+.footer-bg {
+  background: var(--base-color-1);
+}
+
+.footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy span {
+  display: block;
+}
+
+.copy span + span {
+  margin-top: 15px;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+}
+
+.social img {
+  transition: .5s;
+  border-radius: 3.5px;
+}
+
+.social img:hover {
+  transform: translate3d(0,-5px,0);
+  background: #fff;
+  overflow: hidden;
+}
+
+  
