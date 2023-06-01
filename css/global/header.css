@@ -1,0 +1,29 @@
+.nav-content,
+.header-nav,
+.nav-content li {
+  display: flex;
+  align-items: center;
+}
+
+.header-bg {
+  background: var(--base-color-1);
+  padding: 15px 20px;
+}
+
+.header-nav {
+  justify-content: space-between;
+}
+
+.nav-content li + li::before {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background: var(--sup-color-4);
+}
+
+.nav-content a {
+  padding: 10px;
+}

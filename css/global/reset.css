@@ -1,0 +1,22 @@
+body,
+ul,
+li,
+a {
+  margin:0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+} 
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

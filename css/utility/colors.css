@@ -1,0 +1,51 @@
+:root {
+  --base-color-1:#0e1119;
+  --base-color-2:#1a2032;
+  --base-color-3:#2e364c;
+
+  --acent-color-1:#2F81F7;
+  --acent-color-2:#2345A7;
+
+  --sup-color-1:#91949e;
+  --sup-color-2:#c2c6d3;
+  --sup-color-3:#dde5ff;
+  --sup-color-4:#f3f6ff;
+
+  --status-color-1:#48A440;
+}
+
+.color-p0 {
+  color:#ffffff;
+}
+
+.color-p1 {
+  color:var(--base-color-1);
+}
+
+.color-p2 {
+  color:var(--sup-color-4);
+}
+
+.color-s1 {
+  color:var(--base-color-3);
+}
+
+.color-s2 {
+  color:var(--sup-color-1);
+}
+
+.color-s3 {
+  color:var(--sup-color-2);
+}
+
+.color-a1 {
+  color:var(--acent-color-1);
+}
+
+.color-a1 {
+  color:var(--acent-color-2);
+}
+
+.color-st {
+  color:var(--status-color-1);
+}
