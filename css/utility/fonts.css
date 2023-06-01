@@ -1,0 +1,31 @@
+.font-p1 {
+  font: 500 8rem/7.25rem 'Public Sans', sans-serif;
+}
+
+.font-p2 {
+  font: 600 1.25rem/1.5rem 'Nunito', sans-serif;
+}
+
+.font-p3 {
+  font: 700 1.5rem/1.7rem 'Nunito', sans-serif;
+}
+
+.font-p4 {
+  font: 700 2.25rem/1.7rem 'Nunito', sans-serif;
+}
+
+.font-s1 {
+  font: 400 2.5rem/2.75rem 'Nunito', sans-serif;
+}
+
+.font-s2 {
+  font: 400 2.25rem/2.5rem 'Nunito', sans-serif;
+}
+
+.font-s3 {
+  font: 400 1.5rem/1.7rem 'Nunito', sans-serif;
+}
+
+.font-s4 {
+  font: 400 1.25rem/1.5rem 'Nunito', sans-serif;
+}
