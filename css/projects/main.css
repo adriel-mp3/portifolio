@@ -1,0 +1,36 @@
+.projects-bg {
+  background: var(--base-color-1);
+  margin-top:240px;
+  padding: 120px 0;
+  position: relative;
+}
+
+.projects-bg::before {
+  content: "";
+  position: absolute;
+  background-image: url('../../assets/html-dec.svg');
+  width: 180px;
+  height: 105px;
+  top: -60px;
+  right: 160px;
+}
+
+.projects-header h2 {
+  margin-bottom: 15px;
+}
+
+.projects-footer span {
+  display: inline-block;
+  border-bottom: 2px solid var(--sup-color-2);
+}
+
+.projects-footer a:hover  {
+  color:var(--acent-color-1);
+}
+
+
+.projects-footer {
+  display: flex;
+  justify-content: center;
+}
+
