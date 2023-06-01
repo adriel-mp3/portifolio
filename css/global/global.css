@@ -10,3 +10,23 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.linkedin-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.linkedin-link span {
+  display: inline-block;
+  border-bottom: 2px solid var(--sup-color-1);
+  padding-bottom: 5px;
+}
+
+.linkedin-link a {
+  transition: .3s;
+}
+
+.linkedin-link a:hover {
+  color: var(--acent-color-2);
+}

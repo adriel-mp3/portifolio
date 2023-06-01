@@ -1,0 +1,52 @@
+.contact-bg {
+  background: var(--base-color-1);
+  border-radius: 12px;
+  padding: 60px 0;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-content h3{
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.contact-content h3::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: -35px;
+  top:40px;
+  background-image: url('../../assets/hashtag.svg');
+  background-repeat: no-repeat;
+  width: 26.57px;
+  height: 34.9px;
+}
+
+.contact-content p {
+  margin-bottom: 30px;
+}
+
+.email-btn {
+  background-color: var(--acent-color-1);
+  text-transform: uppercase;
+  display: flex;
+  gap:15px;
+  padding:10px 15px;
+  border-radius: 6px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.09), 2px 4px 8px rgba(0, 0, 0, 0.06);
+  transition: .3s;
+}
+
+.email-btn:hover {
+  background-color: var(--acent-color-2);
+  transform: translate3d(0,-5px,0);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1), 2px 4px 12px rgba(0, 0, 0, 0.09);
+}
+
