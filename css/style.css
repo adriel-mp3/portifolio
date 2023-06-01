@@ -10,3 +10,9 @@
 
 @import './projects/main.css';
 @import './projects/slide.css';
+
+@import './about/main.css';
+@import './about/cards.css';
+@import './about/facts.css';
+
+
