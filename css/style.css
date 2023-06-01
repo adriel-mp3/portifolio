@@ -1,6 +1,12 @@
 @import './global/reset.css';
 @import './global/global.css';
+
 @import './utility/fonts.css';
 @import './utility/colors.css';
+
 @import './global/header.css';
+
 @import './main/main.css';
+
+@import './projects/main.css';
+@import './projects/slide.css';
