@@ -1,0 +1,21 @@
+.main-content {
+  margin-top: 240px;
+}
+
+.main-content h1 {
+  margin-bottom: 15px;
+  display: flex;
+  position: relative;
+}
+
+.main-content h1::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: -40px;
+  top: 40px;
+  background-image: url('../../assets/hashtag.svg');
+  background-repeat: no-repeat;
+  width: 26.57px;
+  height: 34.9px;
+}
