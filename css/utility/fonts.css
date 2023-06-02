@@ -27,5 +27,9 @@
 }
 
 .font-s4 {
-  font: 400 1.25rem/1.5rem 'Nunito', sans-serif;
+  font: 400 1rem/1.5rem 'Nunito', sans-serif;
+}
+
+.font-s5 {
+  font: 400 .75rem/1.3rem 'Nunito', sans-serif;
 }
