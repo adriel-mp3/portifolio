@@ -1,6 +1,7 @@
 .slide-wrapper {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   margin-top: 60px;
+  position: relative;
 }
 
 .slide-wrapper {
@@ -118,4 +119,39 @@
   display: flex;
   align-items: center;
   gap:15px;
+}
+
+
+.slide-nav button {
+  background-color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.slide-nav button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-nav button.next,
+.slide-nav button.prev {
+  position: absolute;
+  bottom: 420px;
+  z-index: 200;
+}
+
+.slide-nav button.next {
+  transform: rotate(180deg);
+  right: 20px;
+}
+
+.slide-nav button.prev {
+  left: 20px;
 }
