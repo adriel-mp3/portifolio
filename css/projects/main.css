@@ -17,6 +17,19 @@
 
 .projects-header h2 {
   margin-bottom: 15px;
+  position: relative;
+}
+
+.projects-header h2::before{
+  display: block;
+  position: absolute;
+  content: '';
+  left: -35px;
+  top:40px;
+  background-image: url('../../assets/hashtag.svg');
+  background-repeat: no-repeat;
+  width: 26.57px;
+  height: 34.9px;
 }
 
 .projects-footer span {
@@ -24,8 +37,11 @@
   border-bottom: 2px solid var(--sup-color-2);
 }
 
+.projects-footer a {
+  transition: .3s;
+}
 .projects-footer a:hover  {
-  color:var(--acent-color-1);
+  color:var(--acent-color-2);
 }
 
 
