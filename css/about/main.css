@@ -29,3 +29,37 @@
   grid-template-columns: 2.5fr 2fr;
   gap:80px;
 }
+
+
+@media (max-width:1200px) {
+  .about-header h2::before {
+    background-image: url('../../assets/hashtag-2.svg');
+    top: 30px;
+    left: -15px;
+  }
+}
+
+@media (max-width:800px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .about-header h2::before {
+    top: 25px;
+  }
+  .about-header {
+    margin: 60px;
+  }
+}
+
+@media (max-width:480px) {
+  .about-content {
+    gap:40px;
+  }
+  .about-header {
+    margin: 60px 0;
+  }
+
+  .about-header h2 {
+    margin-bottom: 10px;
+  }
+}

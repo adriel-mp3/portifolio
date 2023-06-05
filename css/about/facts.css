@@ -18,3 +18,9 @@
 .facts-list li + li {
   margin-top: 30px;
 }
+
+@media (max-width:800px) {
+  .facts-list li + li {
+    margin-top: 20px;
+  }
+}
