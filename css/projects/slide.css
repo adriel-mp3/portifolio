@@ -30,6 +30,7 @@
 .slide-img {
   border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
+  height: auto !important;
 }
 
 .slide-img:hover {
@@ -178,6 +179,12 @@
   }
   .stacks {
     order: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stacks li {
+    padding: 4px 6px;
   }
 }
 
