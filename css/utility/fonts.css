@@ -27,9 +27,98 @@
 }
 
 .font-s4 {
-  font: 400 1rem/1.5rem 'Nunito', sans-serif;
+  font: 400 1rem/1.3rem 'Nunito', sans-serif;
 }
 
 .font-s5 {
   font: 400 .75rem/1.3rem 'Nunito', sans-serif;
+}
+
+
+@media (max-width:1200px) {
+  .font-p1 {
+    font: 500 6rem/5.25rem 'Public Sans', sans-serif;
+  }
+
+  .font-s1 {
+    font: 400 2rem/2.5rem 'Nunito', sans-serif;
+  }
+
+  .font-s3 {
+    font: 400 1.25rem/1.7rem 'Nunito', sans-serif;
+  }
+}
+
+@media (max-width:800px) {
+  .font-p1 {
+    font: 500 5rem/4.7rem 'Public Sans', sans-serif;
+  }
+
+  .font-p2 {
+    font: 600 1.25rem/1.5rem 'Nunito', sans-serif;
+  }
+  
+  .font-s1 {
+    font: 400 1.75rem/2.5rem 'Nunito', sans-serif;
+  }
+
+  .font-s3 {
+    font: 600 1rem/1.5rem 'Nunito', sans-serif;
+  }
+
+  .font-p3 {
+    font: 700 1.25rem/1.7rem 'Nunito', sans-serif;
+  }
+
+  .font-p4 {
+    font: 700 1.75rem/1.7rem 'Nunito', sans-serif;
+  }
+}
+
+@media (max-width:480px) {
+  .font-p1 {
+    font: 500 4rem/3.7rem 'Public Sans', sans-serif;
+  }
+
+  .font-p2 {
+    font: 600 1rem/1.5rem 'Nunito', sans-serif;
+  }
+
+  .font-p3 {
+    font: 700 1rem/1.5rem 'Nunito', sans-serif;
+  }
+
+  .font-s1 {
+    font: 400 1.5rem/1.9rem 'Nunito', sans-serif;
+  }
+
+  .font-s4 {
+    font: 400 0.75rem/1.2rem 'Nunito', sans-serif;
+  }
+} 
+
+@media (max-width:360px) {
+  .font-p1 {
+    font: 500 3.75rem/3.5rem 'Public Sans', sans-serif;
+  }
+
+  .font-s1 {
+    font: 400 1.25rem/1.7rem 'Nunito', sans-serif;
+  }
+
+  .font-p3 {
+    font: 700 0.85rem/1.7rem 'Nunito', sans-serif;
+  }
+
+  .font-p4 {
+    font: 700 1.25rem/1.7rem 'Nunito', sans-serif;
+  }
+
+  .font-s3 {
+    font: 600 1rem/1.2rem 'Nunito', sans-serif;
+  }
+  
+  .font-s4 {
+    font: 400 0.7rem/1.2rem 'Nunito', sans-serif;
+  }
 }
