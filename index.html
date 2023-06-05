@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="./js/script.js" defer></script>
+  <link rel="icon" href="./favicon.png" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+  <meta name="description" content="Desenvolvedor Front-end com experiência em JavaScript, HTML, CSS e desenvolvendo habilidades em TypeScript, ReactJS e consumo de APIs REST. Confira meu portifólio!">
   <title>Adriel Santos | Portifólio</title>
 </head>
 
@@ -17,14 +20,14 @@
 
   <header class="header-bg">
     <nav class="header-nav container">
-      <img src="./assets/logo.svg" alt="Adriel logo">
+      <img src="./assets/logo.svg" alt="Adriel logo" width="40" height="35">
       <button id="btn-mobile" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu">
         <span id="hamburguer"></span>
       </button>
       <ul class="nav-content font-p2 color-p2" id="menu" role="menu">
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#contact">Contato</a></li>
+        <li role="menuitem"><a href="#projects">Projetos</a></li>
+        <li role="menuitem"><a href="#about">Sobre</a></li>
+        <li role="menuitem"><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -41,12 +44,12 @@
     </div>
     <div class="slide-wrapper" >
       <div class="slide-nav">
-        <button class="prev"><img src="./assets/arrow.svg" alt="Previous slide button"></button>
-        <button class="next"><img src="./assets/arrow.svg" alt="Next slide button"></button>
+        <button class="prev"><img src="./assets/arrow.svg" alt="Previous slide button" width="14" height="24"></button>
+        <button class="next"><img src="./assets/arrow.svg" alt="Next slide button" width="14" height="24"></button>
       </div>
-      <div class="slide" data-anime="scroll">
+      <ul class="slide" data-anime="scroll">
         <li class="slide-item">
-          <img class="slide-img" src="./assets/in-order.jpg" alt="In-order project screenshot">
+          <img class="slide-img" src="./assets/in-order.jpg" alt="In-order project screenshot" width="800" height="499">
           <div class="slide-description">
             <div class="info">
               <h3 class="font-p4 color-p2">In Order <span class="slide-btn new-btn font-s5 color-p0">Novo</span></h3>
@@ -57,16 +60,16 @@
               </div>
             </div>
             <ul class="stacks">
-              <li><img src="./assets/github-2.svg" alt="Github Logo"></li>
-              <li><img src="./assets/html.svg" alt="Github Logo"></li>
-              <li><img src="./assets/css.svg" alt=""></li>
-              <li><img src="./assets/javascript.svg" alt="Github Logo"></li>
-              <li><img src="./assets/git.svg" alt="Github Logo"></li>
+              <li><img src="./assets/github-2.svg" alt="Github Logo" width="35" height="35"></li>
+              <li><img src="./assets/html.svg" alt="HTML logo" width="35" height="35"></li>
+              <li><img src="./assets/css.svg" alt="CSS logo" width="35" height="35"></li>
+              <li><img src="./assets/javascript.svg" alt="Javascript logo" width="35" height="35"></li>
+              <li><img src="./assets/git.svg" alt="Git logo" width="35" height="35"></li>
             </ul>
           </div>
         </li>
         <li class="slide-item">
-          <img class="slide-img" src="./assets/smart-finances 2.jpg" alt="In-order project screenshot">
+          <img class="slide-img" src="./assets/smart-finances.jpg" alt="Smart Finances screenshot" width="800" height="499">
           <div class="slide-description">
             <div class="info">
               <h3 class="font-p4 color-p2">Smart Finances</h3>
@@ -77,16 +80,16 @@
               </div>
             </div>
             <ul class="stacks">
-              <li><img src="./assets/github-2.svg" alt="Github Logo"></li>
-              <li><img src="./assets/html.svg" alt="Github Logo"></li>
-              <li><img src="./assets/css.svg" alt=""></li>
-              <li><img src="./assets/javascript.svg" alt="Github Logo"></li>
-              <li><img src="./assets/git.svg" alt="Github Logo"></li>
+              <li><img src="./assets/github-2.svg" alt="Github Logo" width="35" height="35"></li>
+              <li><img src="./assets/html.svg" alt="HTML Logo" width="35" height="35"></li>
+              <li><img src="./assets/css.svg" alt="CSS Logo" width="35" height="35"></li>
+              <li><img src="./assets/javascript.svg" alt="Javascript Logo" width="35" height="35"></li>
+              <li><img src="./assets/git.svg" alt="Git Logo" width="35" height="35"></li>
             </ul>
           </div>
         </li>
         <li class="slide-item">
-          <img class="slide-img" src="./assets/sneakers.jpg" alt="In-order project screenshot">
+          <img class="slide-img" src="./assets/sneakers.jpg" alt="In-order project screenshot" width="800" height="498">
           <div class="slide-description">
             <div class="info">
               <h3 class="font-p4 color-p2">Sneakers</h3>
@@ -97,16 +100,16 @@
               </div>
             </div>
             <ul class="stacks">
-              <li><img src="./assets/github-2.svg" alt="Github Logo"></li>
-              <li><img src="./assets/html.svg" alt="Github Logo"></li>
-              <li><img src="./assets/css.svg" alt=""></li>
-              <li><img src="./assets/javascript.svg" alt="Github Logo"></li>
-              <li><img src="./assets/git.svg" alt="Github Logo"></li>
+              <li><img src="./assets/github-2.svg" alt="Github logo" width="35" height="35"></li>
+              <li><img src="./assets/html.svg" alt="HTML logo" width="35" height="35"></li>
+              <li><img src="./assets/css.svg" alt="CSS Logo" width="35" height="35"></li>
+              <li><img src="./assets/javascript.svg" alt="Javascript logo" width="35" height="35"></li>
+              <li><img src="./assets/git.svg" alt="Git logo" width="35" height="35"></li>
             </ul>
           </div>
         </li>
         <li class="slide-item">
-          <img class="slide-img" src="./assets/animais.jpg" alt="In-order project screenshot">
+          <img class="slide-img" src="./assets/animais.jpg" alt="Animais Fantasticos screenshot" width="800" height="499">
           <div class="slide-description">
             <div class="info">
               <h3 class="font-p4 color-p2">Animais Fantásticos</h3>
@@ -117,15 +120,15 @@
               </div>
             </div>
             <ul class="stacks">
-              <li><img src="./assets/github-2.svg" alt="Github Logo"></li>
-              <li><img src="./assets/html.svg" alt="Github Logo"></li>
-              <li><img src="./assets/css.svg" alt=""></li>
-              <li><img src="./assets/javascript.svg" alt="Github Logo"></li>
-              <li><img src="./assets/git.svg" alt="Github Logo"></li>
+              <li><img src="./assets/github-2.svg" alt="Github logo" width="35" height="35"></li>
+              <li><img src="./assets/html.svg" alt="HTML logo" width="35" height="35"></li>
+              <li><img src="./assets/css.svg" alt="CSS Logo" width="35" height="35"></li>
+              <li><img src="./assets/javascript.svg" alt="Javascript logo" width="35" height="35"></li>
+              <li><img src="./assets/git.svg" alt="Git logo" width="35" height="35"></li>
             </ul>
           </div>
         </li>
-      </div>
+      </ul>
     </div>
 
     <div class="projects-footer">
@@ -144,14 +147,14 @@
     <div class="about-content" >
       <div class="about-cards">
         <div class="knowledge">
-          <img src="./assets/lamp.svg" alt="Lamp icon">
+          <img src="./assets/lamp.svg" alt="Lamp icon" width="50" height="50">
           <h3 class="font-p4 color-p3">Conhecimento.</h3>
           <ul class="knowledge-list font-p3 color-s1">
             <li>HTML</li>
             <li>CSS</li>
-            <li>React<img src="./assets/hourglass.svg" alt="hourglass icon"></li>
+            <li>React<img src="./assets/hourglass.svg" alt="Icone ampulheta" width="13" height="15"></li>
             <li>JavaScript</li>
-            <li>TypeScript<img src="./assets/hourglass.svg" alt="hourglass icon"></li>
+            <li>TypeScript<img src="./assets/hourglass.svg" alt="Icone ampulheta" width="13" height="15"></li>
             <li>UI/UX</li>
             <li>Figma</li>
             <li>Git/Github</li>
@@ -159,7 +162,7 @@
         </div>
 
         <div class="graduation">
-          <img src="./assets/graduate.svg" alt="Graduate hat icon">
+          <img src="./assets/graduate.svg" alt="icone de um chapeu de graduação" width="50" height="44">
           <h3 class="font-p4 color-p3">Formação.</h3>
           <p class="font-p2 color-s1">Formando em Analise e Desenvolvimento de Sistemas e estou disponível para estagio.</p>
         </div>
@@ -169,23 +172,23 @@
         <h4 class="font-p4 color-p3">Curiosidades.</h4>
         <ul class="facts-list color-s1 font-s3">
           <li>
-            <img src="./assets/music.svg" alt="Sound icon">
+            <img src="./assets/music.svg" alt="icone de um auto-falante " width="30" height="33">
             <p>Me apresentei para mais de 7mil pessoas em um festival de música eletrônica.</p>
           </li>
           <li>
-            <img src="./assets/graph.svg" alt="Graph icon">
+            <img src="./assets/graph.svg" alt="Icone de graficos" width="28" height="30">
             <p>Já cursei até o 6° período de Administração.</p>
           </li>
           <li>
-            <img src="./assets/wrench.svg" alt="Wrench icon">
+            <img src="./assets/wrench.svg" alt="Icone de uma ferramenta" width="30" height="30">
             <p>Minha primeira linguagem de programação foi Java.</p>
           </li>
           <li>
-            <img src="./assets/medal.svg" alt="Medal icon">
+            <img src="./assets/medal.svg" alt="Icone de uma medalha" width="20" height="30">
             <p>Meu primeiro commit foi em 2022.</p>
           </li>
           <li>
-            <img src="./assets/coffe.svg" alt="Coffe icon">
+            <img src="./assets/coffe.svg" alt="Icone de um cafe" width="30" height="28">
             <p>Minha bebida favorita é café.</p>
           </li>
         </ul>
@@ -198,7 +201,7 @@
       <h3 class="font-p1 color-p2">Contato</h3>
       <p class="font-s1 color-s2">Estou disponível para novos desafios.</p>
       <a href="mailto:contatoadrielsantos@hotmail.com" class="email-btn font-p2 color-p0">Entrar em contato
-        <img src="./assets/mail.svg" alt="Mail icon">
+        <img src="./assets/mail.svg" alt="Icone de uma caixa de e-mail" width="15" height="15">
       </a>
     </div>
   </section>
@@ -218,17 +221,17 @@
       <ul class="social">
         <li>
           <a href="https://www.linkedin.com/in/adriel-santos-dev/" target="_blank">
-            <img src="./assets/linkedin-logo.svg" alt="Linkedin logo">
+            <img src="./assets/linkedin-logo.svg" alt="Linkedin logo" width="30" height="30">
           </a>
         </li>
         <li>
           <a href="https://github.com/adriel-mp3" target="_blank">
-            <img src="./assets/github-logo.svg" alt="GitHub logo">
+            <img src="./assets/github-logo.svg" alt="GitHub logo" width="30" height="30">
           </a>
         </li>
         <li>
           <a href="mailto:contatoadrielsantos@hotmail.com">
-            <img src="./assets/mail-2.svg" alt="Mail icon">
+            <img src="./assets/mail-2.svg" alt="Icone de uma caixa de e-mail" width="30" height="30">
           </a>
         </li>
       </ul>
