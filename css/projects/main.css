@@ -50,3 +50,45 @@
   justify-content: center;
 }
 
+
+@media (max-width:1600px) {
+  .projects-header h2::before {
+    background-image: url('../../assets/hashtag-2.svg');
+    left: -15px;
+    top: 45px;
+  }
+}
+@media (max-width:1200px) {
+  .projects-header h2::before {
+    left: -15px;
+    top: 35px;
+  }
+}
+
+@media (max-width:800px) {
+  .projects-bg {
+    margin-top: 120px;
+    padding: 60px 0;
+  }
+
+  .projects-bg::before {
+    background-image: url('../../assets/html-dec-2.svg');
+    background-repeat: no-repeat;
+    width: 90.25px;
+    height: 52.36px;
+    top: -30px;
+    right: 160px;
+  }
+
+  .projects-header h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:480px) {
+  .projects-header h2::before {
+    left: -15px;
+    top: 20px;
+  }
+}
+

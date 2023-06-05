@@ -3,7 +3,8 @@
 }
 
 .footer {
-  padding: 30px 0;
+  padding: 30px 20px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -32,4 +33,22 @@
   overflow: hidden;
 }
 
+@media (max-width:800px) {
+  .footer {
+    margin-top: 60px;
+  }
+
+  .copy span + span {
+    margin-top: 5px;
+  }
+
+  .social {
+    gap:15px;
+  }
+
+  .social img {
+    width: 25px;
+
+  }
+}
   

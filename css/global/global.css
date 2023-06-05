@@ -14,7 +14,6 @@ body {
 .linkedin-link {
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
 }
 
 .linkedin-link span {
@@ -29,4 +28,10 @@ body {
 
 .linkedin-link a:hover {
   color: var(--acent-color-2);
+}
+
+@media (max-width:480px) {
+  .linkedin-link span {
+    padding-bottom: 0px;
+  }
 }
