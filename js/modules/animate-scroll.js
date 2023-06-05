@@ -3,7 +3,7 @@ import debounce from './debounce.js';
 export default class AnimateScroll {
   constructor(sections) {
     this.sections = document.querySelectorAll(sections);
-    this.halfWindowHeight = window.innerHeight * 0.5;
+    this.halfWindowHeight = window.innerHeight * 0.6;
     this.checkDistance = debounce(this.checkDistance.bind(this), 50);
   }
 
