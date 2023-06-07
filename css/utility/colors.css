@@ -22,7 +22,11 @@
 
     --acent-color-1: color(display-p3 0.185 0.506 0.969);
     --acent-color-2: color(display-p3 0.138 0.271 0.655);
-
+    --sup-color-1: #91949e;
+    --sup-color-2: #c2c6d3;
+    --sup-color-3: #dde5ff;
+    --sup-color-4: #f3f6ff;
+    
     --status-color-1: color(display-p3 0.283 0.644 0.251);
   }
 }
